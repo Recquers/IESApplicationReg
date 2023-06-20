@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: webstudent
+    url: jdbc:mysql://127.0.0.1:3306/ies
+    username: webstudent
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
